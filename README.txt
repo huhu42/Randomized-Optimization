@@ -1,5 +1,7 @@
 Assignment 2 - Randomized Optimization - lhu81
 
+Code: https://github.com/huhu42/assignment2
+
 The code in this assignment implements three randomized optimization problems (TSP, FLIPFLOP and CONTPEAKS) as well as optimizing weights to the Neural Network implemented in Assignment 1 for credit card default. 
 
 Data:
