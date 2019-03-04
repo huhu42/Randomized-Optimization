@@ -17,7 +17,7 @@ If these folders do not exist the experiments module will attempt to create them
 
 Running Experiments:
 
-Each experiment can be run as a separate script. Running the actual optimization algorithms to generate data requires the use of Jython.
+Each experiment can be run as a separate script. Running the actual optimization algorithms to generate data requires the use of Jython 2.7. 
 
 For the neural network problem, run:
  - NN-Backprop.py
@@ -32,6 +32,6 @@ For the neural network problem, run:
 
 Graphing:
 
-The `plotting.py` script takes care of all the plotting. Since the files output from the scripts above follow a common naming scheme it will determine the problem, algorithm, and parameters as needed and write the output to sub-folders in `./output/images`. This _must_ be run via python, specifically an install of python that has the requirements from `requirements.txt` installed.
+The `plotting.py` script takes care of all the plotting. Since the files output from the scripts above follow a common naming scheme it will determine the problem, algorithm, and parameters as needed and write the output to sub-folders in `./output/images`. This _must_ be run via python 3, specifically an install of python that has the requirements from `requirements.txt` installed.
 
 In addition to the images, a csv file of the best parameters per problem/algorithm pair is written to`./output/best_results.csv`

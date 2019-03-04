@@ -16,9 +16,6 @@ from base import *
 # Network parameters found "optimal" in Assignment 1
 
 
-#{'MLP__activation': 'relu', 'MLP__alpha': 0.0001, 'MLP__hidden_layer_sizes': (32, 32, 32), 'MLP__learning_rate_init': 0.004}
-
-
 INPUT_LAYER = 23
 HIDDEN_LAYER1 = 32
 HIDDEN_LAYER2 = 32
